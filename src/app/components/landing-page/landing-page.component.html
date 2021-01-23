@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img style="margin-left: 15px;" src="assets/Images/Logo.png">
+        <span style="font-weight: bolder; font-size: xx-large; margin-left: 5px; color: black;">Insta<span style="color: #6A26CD;">Hire</span> </span> 
+    </a>
+  </nav>
+  <div class="container">
+
+    <div class="row">
+        <div class="col">
+            <img class="homepage-image" src="assets/Images/Homepage.svg">
+        </div>
+        <dir class="col"> 
+            <div class="right-side">
+                <h1 class="landing-text">Its time to do the best <span style="color: #6A26CD;">work</span> of your life.</h1>
+                <div class="login-form">
+                <form (submit)="onLogin(loginForm)" #loginForm="ngForm"> 
+                    <input type="email" name="email" ngModel class="login-input" id="email" placeholder="Email Address" #emailInput="ngModel" required email>  
+                    <br>
+                    <input type="password" name="password" ngModel class="login-input" id="password" placeholder="Password" #passwordInput="ngModel" required>
+                    <br>
+                    <button type="submit" class="login-button"> Login</button>
+                </form>
+                <hr>
+                <button type="button" class="signin-button" routerLink="/signup" routerLinkActive="active">Sign Up</button>
+            </div>
+                
+            </div>
+        </dir>
+        
+    </div>
+</div>
+
+
+                                                 
+

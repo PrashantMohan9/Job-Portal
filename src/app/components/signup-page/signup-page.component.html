@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row justify-content-center">
+    <div class="col-md-5">
+     <div class="card">
+       <h2 class="card-title text-center" style="font-weight: bolder; color: #1877f2;">Sign Up</h2>
+        <div class="card-body py-md-4">
+         <form (submit)="onSignup(signupForm)" #signupForm="ngForm">
+
+               <input type="text" name="name" ngModel class="form-control" id="name" placeholder="Name" #usernameInput="ngModel" required>
+            
+               <input type="email" name="email" ngModel class="form-control" id="email" placeholder="Email" #emailInput="ngModel" required email>                                                   
+
+               <input type="password" name="password" ngModel class="form-control" id="password" placeholder="Password" #passwordInput="ngModel" required>
+              <p>Type:</p>
+               <select name="type" ngModel class="drop" #usertypeInput="ngModel" required>
+                  <option value="candidate">Candidate</option>
+                  <option value="recruiter">Recruiter</option>
+               </select>
+            
+               <div class="signup-button">
+               <button class="btn btn-primary" style="background-color: #1877f2; margin-top: 10px;">Create Account</button>
+               </div>      
+         </form>
+       </div>
+    </div>
+  </div>
+  </div>
+  </div>

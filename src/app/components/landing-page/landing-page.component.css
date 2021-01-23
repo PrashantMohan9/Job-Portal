@@ -1,0 +1,61 @@
+
+.homepage-image{
+    width: 600px;
+    height: 600px;
+}
+
+.landing-text{
+    font-weight: bolder;
+}
+
+.right-side{
+    position: absolute;
+    top: 10%;
+}
+.login-input{
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    padding: 20px; 
+    width: 95%;
+    height: 15px; 
+}
+
+.login-button{
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    border:none;
+    padding: 10px; 
+    width: 95%;
+    background-color: #1877f2;
+    color: white;
+}
+
+.signin-button{
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    border-color: #42b72a;
+    padding: 10px; 
+    width: 60%;
+    background-color: #42b72a;
+    color: white;
+}
+
+.login-form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 10%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.navbar{
+    padding: 0px !important;
+}

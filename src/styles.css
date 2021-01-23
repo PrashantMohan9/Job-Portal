@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0;
+    background-color: #f8f8f8;
+}
+
+.navbar{
+    box-shadow: 0px 4px 8px -6px rgba(0,0,0,.5);
+    background-color: #EEEEEE;
+    padding-bottom: 10px;
+}
